@@ -1,0 +1,251 @@
+version 3
+run NaiveScatter4-0-20260516-21:01:15-11168
+attr configname NaiveScatter4
+attr datetime 20260516-21:01:15
+attr datetimef 20260516-210115
+attr experiment NaiveScatter4
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ScatterFatTree4
+attr processid 11168
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network ScatterFatTree4
+config sim-time-limit 10s
+config *.algorithm "\"naive\""
+config *.payloadBytes 1048576
+config *.linkBitrate 1Gbps
+config sim-time-limit 20s
+config output-scalar-file results/NaiveScatter4.sca
+config output-vector-file results/NaiveScatter4.vec
+config **.vector-recording false
+
+scalar ScatterFatTree4.host[3] scatterCompletionTime 0.050335648
+scalar ScatterFatTree4.host[3] scatterMessagesSent 3
+scalar ScatterFatTree4.host[3] scatterAppBytesSent 3145728
+par ScatterFatTree4.host[0].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.host[0].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree4.host[0].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.host[0].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.host[0].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree4.host[0].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree4.edge1.out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.edge1.out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree4.edge1.out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.edge1.out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.edge1.out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree4.edge1.out[0].channel per 0
+attr mutable ""
+par ScatterFatTree4.host[1].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.host[1].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree4.host[1].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.host[1].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.host[1].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree4.host[1].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree4.edge1.out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.edge1.out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree4.edge1.out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.edge1.out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.edge1.out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree4.edge1.out[1].channel per 0
+attr mutable ""
+par ScatterFatTree4.edge1.out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.edge1.out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree4.edge1.out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.edge1.out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.edge1.out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree4.edge1.out[2].channel per 0
+attr mutable ""
+par ScatterFatTree4.core.out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.core.out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree4.core.out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.core.out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.core.out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree4.core.out[0].channel per 0
+attr mutable ""
+par ScatterFatTree4.host[2].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.host[2].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree4.host[2].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.host[2].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.host[2].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree4.host[2].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree4.edge2.out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.edge2.out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree4.edge2.out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.edge2.out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.edge2.out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree4.edge2.out[0].channel per 0
+attr mutable ""
+par ScatterFatTree4.host[3].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.host[3].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree4.host[3].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.host[3].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.host[3].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree4.host[3].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree4.edge2.out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.edge2.out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree4.edge2.out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.edge2.out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.edge2.out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree4.edge2.out[1].channel per 0
+attr mutable ""
+par ScatterFatTree4.edge2.out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.edge2.out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree4.edge2.out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.edge2.out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.edge2.out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree4.edge2.out[2].channel per 0
+attr mutable ""
+par ScatterFatTree4.core.out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree4.core.out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree4.core.out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree4.core.out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree4.core.out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree4.core.out[1].channel per 0
+attr mutable ""
+par ScatterFatTree4.core typename "\"FatTreeSwitch\""
+par ScatterFatTree4.core role "\"core\""
+par ScatterFatTree4.core minNodeId -1
+par ScatterFatTree4.core maxNodeId -1
+par ScatterFatTree4.core linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree4.edge1 typename "\"FatTreeSwitch\""
+par ScatterFatTree4.edge1 role "\"edge\""
+par ScatterFatTree4.edge1 minNodeId 0
+par ScatterFatTree4.edge1 maxNodeId 1
+par ScatterFatTree4.edge1 linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree4.edge2 typename "\"FatTreeSwitch\""
+par ScatterFatTree4.edge2 role "\"edge\""
+par ScatterFatTree4.edge2 minNodeId 2
+par ScatterFatTree4.edge2 maxNodeId 3
+par ScatterFatTree4.edge2 linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree4.host[0] typename "\"ScatterNode\""
+par ScatterFatTree4.host[0] nodeId 0
+par ScatterFatTree4.host[0] numNodes 4
+par ScatterFatTree4.host[0] rootId 0
+par ScatterFatTree4.host[0] algorithm "\"naive\""
+par ScatterFatTree4.host[0] payloadBytes 1048576
+par ScatterFatTree4.host[0] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree4.host[0] startTime 1s
+attr unit s
+par ScatterFatTree4.host[1] typename "\"ScatterNode\""
+par ScatterFatTree4.host[1] nodeId 1
+par ScatterFatTree4.host[1] numNodes 4
+par ScatterFatTree4.host[1] rootId 0
+par ScatterFatTree4.host[1] algorithm "\"naive\""
+par ScatterFatTree4.host[1] payloadBytes 1048576
+par ScatterFatTree4.host[1] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree4.host[1] startTime 1s
+attr unit s
+par ScatterFatTree4.host[2] typename "\"ScatterNode\""
+par ScatterFatTree4.host[2] nodeId 2
+par ScatterFatTree4.host[2] numNodes 4
+par ScatterFatTree4.host[2] rootId 0
+par ScatterFatTree4.host[2] algorithm "\"naive\""
+par ScatterFatTree4.host[2] payloadBytes 1048576
+par ScatterFatTree4.host[2] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree4.host[2] startTime 1s
+attr unit s
+par ScatterFatTree4.host[3] typename "\"ScatterNode\""
+par ScatterFatTree4.host[3] nodeId 3
+par ScatterFatTree4.host[3] numNodes 4
+par ScatterFatTree4.host[3] rootId 0
+par ScatterFatTree4.host[3] algorithm "\"naive\""
+par ScatterFatTree4.host[3] payloadBytes 1048576
+par ScatterFatTree4.host[3] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree4.host[3] startTime 1s
+attr unit s
+par ScatterFatTree4 typename "\"ScatterFatTree4\""
+par ScatterFatTree4 payloadBytes 1048576
+par ScatterFatTree4 algorithm "\"naive\""
+par ScatterFatTree4 linkBitrate 1e+09bps
+attr unit bps
+

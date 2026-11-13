@@ -1,0 +1,1980 @@
+version 3
+run MPIScatter16-0-20260516-21:55:30-34716
+attr configname MPIScatter16
+attr datetime 20260516-21:55:30
+attr datetimef 20260516-215530
+attr experiment MPIScatter16
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ScatterFatTree16
+attr processid 34716
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network ScatterFatTree16
+config *.algorithm "\"mpi_scatter\""
+config *.payloadBytes 1048576
+config *.linkBitrate 1Gbps
+config sim-time-limit 20s
+config output-scalar-file results/MPIScatter16.sca
+config output-vector-file results/MPIScatter16.vec
+config **.vector-recording false
+
+scalar ScatterFatTree16.host[15] scatterCompletionTime 0.687883856
+scalar ScatterFatTree16.host[15] scatterMessagesSent 15
+scalar ScatterFatTree16.host[15] scatterAppBytesSent 33554432
+par ScatterFatTree16.host[0].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[0].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[0].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[0].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[0].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[0].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[0].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[0].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[0].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[0].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[1].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[1].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[1].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[1].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[1].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[1].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[0].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[0].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[0].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[0].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[2].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[2].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[2].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[2].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[2].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[2].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[1].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[1].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[1].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[1].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[3].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[3].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[3].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[3].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[3].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[3].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[1].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[1].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[1].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[1].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[4].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[4].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[4].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[4].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[4].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[4].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[2].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[2].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[2].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[2].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[5].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[5].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[5].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[5].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[5].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[5].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[2].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[2].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[2].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[2].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[6].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[6].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[6].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[6].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[6].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[6].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[3].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[3].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[3].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[3].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[7].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[7].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[7].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[7].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[7].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[7].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[3].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[3].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[3].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[3].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[8].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[8].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[8].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[8].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[8].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[8].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[4].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[4].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[4].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[4].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[9].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[9].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[9].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[9].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[9].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[9].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[4].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[4].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[4].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[4].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[10].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[10].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[10].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[10].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[10].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[10].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[5].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[5].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[5].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[5].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[11].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[11].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[11].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[11].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[11].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[11].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[5].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[5].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[5].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[5].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[12].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[12].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[12].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[12].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[12].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[12].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[6].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[6].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[6].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[6].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[13].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[13].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[13].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[13].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[13].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[13].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[6].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[6].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[6].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[6].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[14].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[14].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[14].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[14].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[14].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[14].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[7].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[7].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[7].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[7].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.host[15].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.host[15].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.host[15].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.host[15].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.host[15].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.host[15].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[7].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[7].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[7].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[7].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[0].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[0].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[0].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[0].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[0].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[0].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[0].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[0].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[0].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[0].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[0].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[0].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[0].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[1].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[1].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[1].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[1].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[1].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[1].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[1].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[1].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[0].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[0].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[0].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[0].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[1].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[1].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[1].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[1].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[1].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[1].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[1].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[1].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[1].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[2].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[2].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[2].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[2].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[2].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[2].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[2].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[2].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[2].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[2].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[2].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[2].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[2].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[3].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[3].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[3].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[3].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[3].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[3].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[3].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[3].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[2].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[2].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[2].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[2].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[3].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[3].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[3].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[3].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[3].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[3].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[3].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[3].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[3].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[4].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[4].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[4].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[4].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[4].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[4].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[4].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[4].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[4].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[4].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[4].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[4].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[4].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[5].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[5].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[5].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[5].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[5].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[5].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[5].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[5].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[4].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[4].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[4].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[4].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[5].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[5].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[5].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[5].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[5].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[5].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[5].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[5].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[5].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[6].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[6].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[6].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[6].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[6].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[6].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[6].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[6].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[6].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[6].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[6].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[6].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[6].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[7].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[7].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[7].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[7].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[7].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[7].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[7].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[7].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[6].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[6].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[6].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[6].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.edge[7].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.edge[7].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.edge[7].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.edge[7].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.edge[7].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[7].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[7].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[7].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[7].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[0].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[0].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[0].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[0].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[0].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[0].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[0].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[0].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[0].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[0].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[0].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[0].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[0].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[0].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[0].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[0].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[0].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[0].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[0].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[0].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[0].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[0].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[0].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[1].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[1].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[1].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[1].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[1].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[1].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[1].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[1].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[1].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[1].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[1].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[1].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[1].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[1].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[1].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[1].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[1].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[1].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[1].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[1].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[1].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[1].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[1].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[2].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[2].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[2].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[2].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[2].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[2].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[2].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[2].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[2].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[2].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[2].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[2].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[2].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[2].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[2].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[2].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[2].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[3].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[3].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[3].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[3].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[3].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[3].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[3].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[3].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[3].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[3].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[3].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[3].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[3].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[3].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[3].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[3].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[3].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[4].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[4].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[4].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[4].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[4].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[4].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[4].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[4].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[4].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[4].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[4].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[4].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[4].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[4].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[4].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[4].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[4].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[5].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[5].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[5].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[5].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[5].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[5].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[5].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[5].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[5].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[5].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[5].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[5].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[5].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[5].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[5].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[5].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[5].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[6].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[6].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[6].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[6].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[6].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[6].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[6].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[6].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[6].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[6].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[6].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[6].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[6].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[6].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[6].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[6].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[6].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[6].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[6].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[6].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[6].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[6].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[6].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[6].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[6].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[6].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[6].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[6].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[6].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[6].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[6].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[6].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[6].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[6].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[6].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[6].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[6].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[6].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[6].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[6].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[6].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[2].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[7].out[2].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[7].out[2].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[7].out[2].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[7].out[2].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[2].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[7].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[0].out[7].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[0].out[7].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[0].out[7].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[0].out[7].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[0].out[7].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[3].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[7].out[3].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[7].out[3].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[7].out[3].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[7].out[3].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[3].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[7].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[1].out[7].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[1].out[7].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[1].out[7].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[1].out[7].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[1].out[7].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[4].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[7].out[4].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[7].out[4].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[7].out[4].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[7].out[4].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[4].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[7].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[2].out[7].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[2].out[7].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[2].out[7].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[2].out[7].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[2].out[7].channel per 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[5].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.agg[7].out[5].channel disabled false
+attr mutable ""
+par ScatterFatTree16.agg[7].out[5].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.agg[7].out[5].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.agg[7].out[5].channel ber 0
+attr mutable ""
+par ScatterFatTree16.agg[7].out[5].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[7].channel typename "\"FatTreeLink\""
+par ScatterFatTree16.core[3].out[7].channel disabled false
+attr mutable ""
+par ScatterFatTree16.core[3].out[7].channel delay 1e-06s
+attr mutable ""
+attr unit s
+par ScatterFatTree16.core[3].out[7].channel datarate 1e+09bps
+attr mutable ""
+attr unit bps
+par ScatterFatTree16.core[3].out[7].channel ber 0
+attr mutable ""
+par ScatterFatTree16.core[3].out[7].channel per 0
+attr mutable ""
+par ScatterFatTree16.core[0] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.core[0] role "\"core\""
+par ScatterFatTree16.core[0] minNodeId -1
+par ScatterFatTree16.core[0] maxNodeId -1
+par ScatterFatTree16.core[0] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.core[1] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.core[1] role "\"core\""
+par ScatterFatTree16.core[1] minNodeId -1
+par ScatterFatTree16.core[1] maxNodeId -1
+par ScatterFatTree16.core[1] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.core[2] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.core[2] role "\"core\""
+par ScatterFatTree16.core[2] minNodeId -1
+par ScatterFatTree16.core[2] maxNodeId -1
+par ScatterFatTree16.core[2] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.core[3] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.core[3] role "\"core\""
+par ScatterFatTree16.core[3] minNodeId -1
+par ScatterFatTree16.core[3] maxNodeId -1
+par ScatterFatTree16.core[3] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[0] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[0] role "\"aggregation\""
+par ScatterFatTree16.agg[0] minNodeId 0
+par ScatterFatTree16.agg[0] maxNodeId 3
+par ScatterFatTree16.agg[0] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[1] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[1] role "\"aggregation\""
+par ScatterFatTree16.agg[1] minNodeId 0
+par ScatterFatTree16.agg[1] maxNodeId 3
+par ScatterFatTree16.agg[1] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[2] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[2] role "\"aggregation\""
+par ScatterFatTree16.agg[2] minNodeId 4
+par ScatterFatTree16.agg[2] maxNodeId 7
+par ScatterFatTree16.agg[2] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[3] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[3] role "\"aggregation\""
+par ScatterFatTree16.agg[3] minNodeId 4
+par ScatterFatTree16.agg[3] maxNodeId 7
+par ScatterFatTree16.agg[3] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[4] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[4] role "\"aggregation\""
+par ScatterFatTree16.agg[4] minNodeId 8
+par ScatterFatTree16.agg[4] maxNodeId 11
+par ScatterFatTree16.agg[4] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[5] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[5] role "\"aggregation\""
+par ScatterFatTree16.agg[5] minNodeId 8
+par ScatterFatTree16.agg[5] maxNodeId 11
+par ScatterFatTree16.agg[5] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[6] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[6] role "\"aggregation\""
+par ScatterFatTree16.agg[6] minNodeId 12
+par ScatterFatTree16.agg[6] maxNodeId 15
+par ScatterFatTree16.agg[6] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.agg[7] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.agg[7] role "\"aggregation\""
+par ScatterFatTree16.agg[7] minNodeId 12
+par ScatterFatTree16.agg[7] maxNodeId 15
+par ScatterFatTree16.agg[7] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[0] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[0] role "\"edge\""
+par ScatterFatTree16.edge[0] minNodeId 0
+par ScatterFatTree16.edge[0] maxNodeId 1
+par ScatterFatTree16.edge[0] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[1] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[1] role "\"edge\""
+par ScatterFatTree16.edge[1] minNodeId 2
+par ScatterFatTree16.edge[1] maxNodeId 3
+par ScatterFatTree16.edge[1] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[2] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[2] role "\"edge\""
+par ScatterFatTree16.edge[2] minNodeId 4
+par ScatterFatTree16.edge[2] maxNodeId 5
+par ScatterFatTree16.edge[2] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[3] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[3] role "\"edge\""
+par ScatterFatTree16.edge[3] minNodeId 6
+par ScatterFatTree16.edge[3] maxNodeId 7
+par ScatterFatTree16.edge[3] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[4] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[4] role "\"edge\""
+par ScatterFatTree16.edge[4] minNodeId 8
+par ScatterFatTree16.edge[4] maxNodeId 9
+par ScatterFatTree16.edge[4] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[5] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[5] role "\"edge\""
+par ScatterFatTree16.edge[5] minNodeId 10
+par ScatterFatTree16.edge[5] maxNodeId 11
+par ScatterFatTree16.edge[5] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[6] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[6] role "\"edge\""
+par ScatterFatTree16.edge[6] minNodeId 12
+par ScatterFatTree16.edge[6] maxNodeId 13
+par ScatterFatTree16.edge[6] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.edge[7] typename "\"FatTreeSwitch\""
+par ScatterFatTree16.edge[7] role "\"edge\""
+par ScatterFatTree16.edge[7] minNodeId 14
+par ScatterFatTree16.edge[7] maxNodeId 15
+par ScatterFatTree16.edge[7] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[0] typename "\"ScatterNode\""
+par ScatterFatTree16.host[0] nodeId 0
+par ScatterFatTree16.host[0] numNodes 16
+par ScatterFatTree16.host[0] rootId 0
+par ScatterFatTree16.host[0] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[0] payloadBytes 1048576
+par ScatterFatTree16.host[0] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[0] startTime 1s
+attr unit s
+par ScatterFatTree16.host[1] typename "\"ScatterNode\""
+par ScatterFatTree16.host[1] nodeId 1
+par ScatterFatTree16.host[1] numNodes 16
+par ScatterFatTree16.host[1] rootId 0
+par ScatterFatTree16.host[1] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[1] payloadBytes 1048576
+par ScatterFatTree16.host[1] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[1] startTime 1s
+attr unit s
+par ScatterFatTree16.host[2] typename "\"ScatterNode\""
+par ScatterFatTree16.host[2] nodeId 2
+par ScatterFatTree16.host[2] numNodes 16
+par ScatterFatTree16.host[2] rootId 0
+par ScatterFatTree16.host[2] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[2] payloadBytes 1048576
+par ScatterFatTree16.host[2] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[2] startTime 1s
+attr unit s
+par ScatterFatTree16.host[3] typename "\"ScatterNode\""
+par ScatterFatTree16.host[3] nodeId 3
+par ScatterFatTree16.host[3] numNodes 16
+par ScatterFatTree16.host[3] rootId 0
+par ScatterFatTree16.host[3] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[3] payloadBytes 1048576
+par ScatterFatTree16.host[3] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[3] startTime 1s
+attr unit s
+par ScatterFatTree16.host[4] typename "\"ScatterNode\""
+par ScatterFatTree16.host[4] nodeId 4
+par ScatterFatTree16.host[4] numNodes 16
+par ScatterFatTree16.host[4] rootId 0
+par ScatterFatTree16.host[4] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[4] payloadBytes 1048576
+par ScatterFatTree16.host[4] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[4] startTime 1s
+attr unit s
+par ScatterFatTree16.host[5] typename "\"ScatterNode\""
+par ScatterFatTree16.host[5] nodeId 5
+par ScatterFatTree16.host[5] numNodes 16
+par ScatterFatTree16.host[5] rootId 0
+par ScatterFatTree16.host[5] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[5] payloadBytes 1048576
+par ScatterFatTree16.host[5] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[5] startTime 1s
+attr unit s
+par ScatterFatTree16.host[6] typename "\"ScatterNode\""
+par ScatterFatTree16.host[6] nodeId 6
+par ScatterFatTree16.host[6] numNodes 16
+par ScatterFatTree16.host[6] rootId 0
+par ScatterFatTree16.host[6] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[6] payloadBytes 1048576
+par ScatterFatTree16.host[6] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[6] startTime 1s
+attr unit s
+par ScatterFatTree16.host[7] typename "\"ScatterNode\""
+par ScatterFatTree16.host[7] nodeId 7
+par ScatterFatTree16.host[7] numNodes 16
+par ScatterFatTree16.host[7] rootId 0
+par ScatterFatTree16.host[7] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[7] payloadBytes 1048576
+par ScatterFatTree16.host[7] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[7] startTime 1s
+attr unit s
+par ScatterFatTree16.host[8] typename "\"ScatterNode\""
+par ScatterFatTree16.host[8] nodeId 8
+par ScatterFatTree16.host[8] numNodes 16
+par ScatterFatTree16.host[8] rootId 0
+par ScatterFatTree16.host[8] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[8] payloadBytes 1048576
+par ScatterFatTree16.host[8] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[8] startTime 1s
+attr unit s
+par ScatterFatTree16.host[9] typename "\"ScatterNode\""
+par ScatterFatTree16.host[9] nodeId 9
+par ScatterFatTree16.host[9] numNodes 16
+par ScatterFatTree16.host[9] rootId 0
+par ScatterFatTree16.host[9] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[9] payloadBytes 1048576
+par ScatterFatTree16.host[9] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[9] startTime 1s
+attr unit s
+par ScatterFatTree16.host[10] typename "\"ScatterNode\""
+par ScatterFatTree16.host[10] nodeId 10
+par ScatterFatTree16.host[10] numNodes 16
+par ScatterFatTree16.host[10] rootId 0
+par ScatterFatTree16.host[10] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[10] payloadBytes 1048576
+par ScatterFatTree16.host[10] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[10] startTime 1s
+attr unit s
+par ScatterFatTree16.host[11] typename "\"ScatterNode\""
+par ScatterFatTree16.host[11] nodeId 11
+par ScatterFatTree16.host[11] numNodes 16
+par ScatterFatTree16.host[11] rootId 0
+par ScatterFatTree16.host[11] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[11] payloadBytes 1048576
+par ScatterFatTree16.host[11] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[11] startTime 1s
+attr unit s
+par ScatterFatTree16.host[12] typename "\"ScatterNode\""
+par ScatterFatTree16.host[12] nodeId 12
+par ScatterFatTree16.host[12] numNodes 16
+par ScatterFatTree16.host[12] rootId 0
+par ScatterFatTree16.host[12] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[12] payloadBytes 1048576
+par ScatterFatTree16.host[12] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[12] startTime 1s
+attr unit s
+par ScatterFatTree16.host[13] typename "\"ScatterNode\""
+par ScatterFatTree16.host[13] nodeId 13
+par ScatterFatTree16.host[13] numNodes 16
+par ScatterFatTree16.host[13] rootId 0
+par ScatterFatTree16.host[13] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[13] payloadBytes 1048576
+par ScatterFatTree16.host[13] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[13] startTime 1s
+attr unit s
+par ScatterFatTree16.host[14] typename "\"ScatterNode\""
+par ScatterFatTree16.host[14] nodeId 14
+par ScatterFatTree16.host[14] numNodes 16
+par ScatterFatTree16.host[14] rootId 0
+par ScatterFatTree16.host[14] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[14] payloadBytes 1048576
+par ScatterFatTree16.host[14] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[14] startTime 1s
+attr unit s
+par ScatterFatTree16.host[15] typename "\"ScatterNode\""
+par ScatterFatTree16.host[15] nodeId 15
+par ScatterFatTree16.host[15] numNodes 16
+par ScatterFatTree16.host[15] rootId 0
+par ScatterFatTree16.host[15] algorithm "\"mpi_scatter\""
+par ScatterFatTree16.host[15] payloadBytes 1048576
+par ScatterFatTree16.host[15] linkBitrate 1e+09bps
+attr unit bps
+par ScatterFatTree16.host[15] startTime 1s
+attr unit s
+par ScatterFatTree16 typename "\"ScatterFatTree16\""
+par ScatterFatTree16 payloadBytes 1048576
+par ScatterFatTree16 algorithm "\"mpi_scatter\""
+par ScatterFatTree16 linkBitrate 1e+09bps
+attr unit bps
+
